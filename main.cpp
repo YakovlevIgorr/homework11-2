@@ -5,7 +5,7 @@
 
 #include "dinamic_lab/din_library.h"
 int main() {
-    din_library::Leaver leaver;
+    Leaver leaver;
     std::string name;
     std::cout << "Введите имя: ";
     std::cin >> name;

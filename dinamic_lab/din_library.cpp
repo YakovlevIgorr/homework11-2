@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-    std::string din_library::Leaver::leave(std::string name) {
+    std::string Leaver::leave(std::string name) {
         return "До свидания, " + name + " !";
     }
 
